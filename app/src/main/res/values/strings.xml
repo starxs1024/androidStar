@@ -12,8 +12,8 @@
     <string name="fuli">福利</string>
     <string name="android">Android</string>
     <string name="ios">iOS</string>
-    <string name="video">休息视频</string>
-    <string name="front">前端</string>
+    <string name="video">教学视频</string>
+    <string name="front">研考前端</string>
     <string name="resource">拓展资源</string>
     <string name="app">App</string>
     <string name="about">关于我</string>
@@ -23,4 +23,7 @@
     <string name="empty_view_hint">暂无数据。点击刷新</string>
     <string name="error_view_hint">加载失败，点击重试</string>
     <string name="no_network_view_hint">网络异常，点击重试</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
 </resources>

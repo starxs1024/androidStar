@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="PROJECT" charset="UTF-8" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/activity/AbActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/adapter/AbFragmentPagerAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/adapter/AbImageShowAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/adapter/AbViewPagerAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/db/AbDBDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/db/AbDBHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/welcome_fade_in.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/welcome_fade_in_scale.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/welcome_fade_out.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_f.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_n.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_selector_back.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/guide_pic1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/guide_pic2.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/guide_pic3.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/line.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/top_bg.9.png" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

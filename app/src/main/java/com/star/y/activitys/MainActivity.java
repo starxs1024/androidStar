@@ -17,6 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.color.ColorChooserDialog;
@@ -104,7 +105,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
         setIconDrawable(mAndroid, MaterialDesignIconic.Icon.gmi_android);
         setIconDrawable(mIos, MaterialDesignIconic.Icon.gmi_apple);
         setIconDrawable(mVideo, MaterialDesignIconic.Icon.gmi_collection_video);
-        setIconDrawable(mFront, MaterialDesignIconic.Icon.gmi_language_javascript);
+        setIconDrawable(mFront, MaterialDesignIconic.Icon.gmi_book_photo);
         setIconDrawable(mResource, FontAwesome.Icon.faw_location_arrow);
         setIconDrawable(mApp, MaterialDesignIconic.Icon.gmi_apps);
         setIconDrawable(mAbout, MaterialDesignIconic.Icon.gmi_account);
@@ -112,7 +113,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
         setIconDrawable(mMore, MaterialDesignIconic.Icon.gmi_more);
 
         Picasso.with(MainActivity.this)
-                .load(R.mipmap.avatar)
+                .load(R.mipmap.head)
                 .placeholder(new IconicsDrawable(this)
                         .icon(FoundationIcons.Icon.fou_photo)
                         .color(Color.GRAY)
@@ -122,14 +123,15 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
                         .sizeDp(75))
                 .transform(new CropCircleTransformation())
                 .into(mAvatar);
-
-        RequestManager.get(getName(), "http://gank.io/api/data/休息视频/1/1", true, new CallBack<List<GanHuo>>() {
+        //用户名更改
+       /* RequestManager.get(getName(), "http://gank.io/api/data/休息视频/1/1", true, new CallBack<List<GanHuo>>() {
             @Override
             public void onSuccess(List<GanHuo> result) {
                 mDesc.setText(result.get(0).getDesc());
             }
-        });
-
+        });*/
+        //用户头像更改
+/*
         RequestManager.get(getName(), "http://gank.io/api/data/福利/1/1", true, new CallBack<List<GanHuo>>() {
             @Override
             public void onSuccess(List<GanHuo> result) {
@@ -146,6 +148,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
                         .into(mAvatar);
             }
         });
+*/
 
         if (PreferencesUtils.getBoolean(this, "isFirst", true)) {
             mResideLayout.openPane();
@@ -218,6 +221,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.avatar:
+                Toast.makeText(getApplicationContext(),"修改头像功能.....施工中。。。",Toast.LENGTH_LONG).show();
                 break;
             case R.id.all:
                 mResideLayout.closePane();
@@ -248,13 +252,13 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
                 mResideLayout.closePane();
                 mIcon.setImageDrawable(new IconicsDrawable(this).color(Color.WHITE).icon(MaterialDesignIconic.Icon.gmi_collection_video).sizeDp(20));
                 mTitle.setText(R.string.video);
-                switchFragment("休息视频");
+                switchFragment("教学视频");
                 break;
             case R.id.front:
                 mResideLayout.closePane();
-                mIcon.setImageDrawable(new IconicsDrawable(this).color(Color.WHITE).icon(MaterialDesignIconic.Icon.gmi_language_javascript).sizeDp(20));
+                mIcon.setImageDrawable(new IconicsDrawable(this).color(Color.WHITE).icon(MaterialDesignIconic.Icon.gmi_book).sizeDp(20));
                 mTitle.setText(R.string.front);
-                switchFragment("前端");
+                switchFragment("研考前端");
                 break;
             case R.id.resource:
                 mResideLayout.closePane();

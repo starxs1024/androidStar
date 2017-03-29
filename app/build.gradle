@@ -8,8 +8,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion '25.0.1'
     defaultConfig {
-        applicationId "com.yyydjk.y"
-        minSdkVersion 14
+        applicationId "com.star.y"
+        minSdkVersion 20
         targetSdkVersion 25
         versionCode 4
         versionName "1.0.4"
@@ -32,7 +32,7 @@ android {
         variant.outputs.each { output ->
             def outputFile = output.outputFile
             if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                def fileName = "干货_${defaultConfig.versionCode}_${defaultConfig.versionName}.apk"
+                def fileName = "研宝_${defaultConfig.versionCode}_${defaultConfig.versionName}.apk"
                 output.outputFile = new File(outputFile.parent, fileName)
             }
         }
@@ -60,4 +60,5 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:appcompat-v7:25.1.1'
     compile 'com.android.support:recyclerview-v7:25.1.1'
+    compile project(path: ':andBase')
 }
