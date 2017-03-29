@@ -1,6 +1,7 @@
 package com.star.y.activitys;
 
 import android.animation.Animator;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
@@ -219,9 +220,11 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
             R.id.resource, R.id.about,
             R.id.app, R.id.theme, R.id.icon, R.id.more})
     public void onClick(View view) {
+        Intent it;
         switch (view.getId()) {
             case R.id.avatar:
-                Toast.makeText(getApplicationContext(),"修改头像功能.....施工中。。。",Toast.LENGTH_LONG).show();
+                it = new Intent(MainActivity.this,LoginActivity.class);
+                startActivity(it);
                 break;
             case R.id.all:
                 mResideLayout.closePane();
