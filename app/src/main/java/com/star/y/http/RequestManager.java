@@ -62,7 +62,7 @@ public class RequestManager {
         }
 
         if (!NetworkUtils.isConnectedByState(App.getContext())) {
-            listener.onFailure(5, "网络开小差了！！");
+            listener.onFailure(5, "网络Boom了！！");
             return;
         }
         if (!NetworkUtils.isNetAvailable(App.getContext())) {
