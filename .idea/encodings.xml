@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/db/DownFileDao.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/download/DownloadProgressListener.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/download/DownloadThread.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/download/FileDownloader.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/global/AbAppData.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/global/AbAppException.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/global/AbConstant.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/model/DownFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/net/AbHttpCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/net/AbHttpItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/net/AbHttpPool.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/andBase/src/main/java/com/ab/net/AbHttpQueue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/star/y/fragments/EduFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/consult_f.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/consult_n.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/edu_view_item.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/play_view_item.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/take_notes_f.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/take_notes_n.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/edu_view_item.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
